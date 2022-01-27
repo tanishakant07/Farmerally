@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Bootstrap CSS -->
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="stylesheet/main.css">
+        <script src="dashboard.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <style> 
+            .search input[type=text] {
+                width: 130px;
+                box-sizing: border-box;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+                font-size: 16px;
+                background-color: white;
+                padding: 12px 20px 12px 40px;
+                transition: width 0.4s ease-in-out;
+            }
+            .search input[type=text]:focus {
+                width: 100%;
+            }
+            .input-container {
+                display: -ms-flexbox; /* IE10 */
+                display: flex;
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            .icon {
+                padding: 10px;
+                background: aqua;
+                color: white;
+                min-width: 50px;
+                text-align: center;
+            }
+
+            .input-field {
+                width: 100%;
+                padding: 10px;
+                outline: none;
+            }
+            .input-field:focus {
+                border: 2px solid aqua;
+            }
+
+            /* Set a style for the submit button */
+            .btn {
+                background-color: aqua;
+                color: black;
+                padding: 15px 20px;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                opacity: 0.9;
+                font-weight: bold;
+            }
+            .btn a {
+                background-color: aqua;
+                color: black;
+                padding: 15px 20px;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                opacity: 0.9;
+                font-weight: bold;
+            }
+
+            .btn:hover {
+                opacity: 1;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <!--HEADER-->
+        <br>
+        <div>
+            <header class="container1">
+                <div id="logo">
+                    <a href="home.html">
+                        <img src="logo.jpg"/>
+                    </a>
+                </div>
+                <center>
+                <div id="heading">
+                    <br>
+                    <h1 style="text-align: center; color: black; font-weight: 800; font-size: 60px;">FARMERALLY</h1>
+                    
+                    <h3 class="tagline" style="text-align: center; color:black;">If the farmer is rich, then so is the nation!</h3>
+                </div>
+                </center>
+                <nav class="nav primary-nav">
+                    <a class="active" href="dashboard.html"><i class="fa fa-home"></i> Home </a>
+                    <a href="profile.html">Edit Profile</a>
+                    <a href="home.html" >
+                        <span class="glyphicon glyphicon-log-out"></span> Log out
+                    </a>
+                    <form class="search">
+                        <input type="text" style="transition: width 0.4s ease-in-out;" name="search" placeholder="Search..">
+                    </form> 
+                </nav>
+            </header>
+        </div>
+        <br>
+        <center>
+        <div style="margin: 80px 400px 80px 400px;">
+            <button class="btn"><a href=submit_details.html>SUBMIT CROP DETAILS</a></button>
+            <br><br>
+            <button class="btn"><a href=view_details.html>VIEW SUBMITTED DETAILS</a></button>
+        </div>
+        </center>
+        
+    </body>
+
+
+  
+ </html>
